@@ -35,6 +35,10 @@ wheels/
 data/
 *.npy
 
+# Generated images
+training_losses.png
+generated_images.png
+
 # IDE
 .vscode/
 .idea/

@@ -38,7 +38,7 @@ This repository contains a fully functional GAN implementation that generates ha
    - Click `Runtime` → `Run all`
    - Or use `Ctrl+F9`
 
-### Running Locally
+### Running as a Python Script
 
 1. Clone the repository:
 ```bash
@@ -50,6 +50,24 @@ cd Generative-Adversarial-Networks-GANs-
 ```bash
 pip install -r requirements.txt
 ```
+
+3. Run the Python script:
+```bash
+python gan_pytorch.py
+```
+
+The script will:
+- Download and prepare the MNIST dataset
+- Train the GAN for 50 epochs
+- Save training loss plots as `training_losses.png`
+- Save generated images as `generated_images.png`
+- Save trained models as `generator.pth` and `discriminator.pth`
+
+### Running Locally with Jupyter
+
+1. Clone the repository (same as above)
+
+2. Install dependencies (same as above)
 
 3. Run the Jupyter notebook:
 ```bash
