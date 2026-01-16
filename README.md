@@ -85,8 +85,8 @@ jupyter notebook GAN_PyTorch.ipynb
 ## Requirements
 
 - Python 3.6+
-- PyTorch 1.9.0+
-- torchvision 0.10.0+
+- PyTorch 2.6.0+
+- torchvision 0.19.0+
 - matplotlib 3.3.4+
 - numpy 1.19.5+
 
